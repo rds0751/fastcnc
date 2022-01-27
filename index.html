@@ -1,0 +1,2194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from fastbnb.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jan 2022 11:02:48 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FASTBNB</title>
+  
+ 
+  <link rel="stylesheet" href="libs/normalize/normalize9e929e92.css?v=0.0.3" media="screen" />
+  
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+  <link rel="stylesheet" href="libs/simple-scroll/simplebar.css">
+  <link rel="stylesheet" href="libs/prism/prism.css">
+  <link rel="stylesheet" href="css/main9e929e92.css?v=0.0.3" media="screen" />
+
+   <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+		<link rel="manifest" href="fav/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
+
+  <script src="libs/jquery/jquery-3.2.1.min9e929e92.js?v=0.0.3"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="home">
+  <div class="page-wrap">
+
+
+
+
+
+
+    <!-- promo section -->
+    <div class="main-section">
+      <div class="decor"></div>
+      <header class="header">
+        <div class="wrapper">
+          <div class="t-panel">
+            <div class="hstats">
+              <!--<div class="balance">
+                 Contract balance in <span class="bnb"></span>:
+                <div class="balance-val js-contract-balance" id="contract-balance"><span class="bnb"> BNB</span>
+                </div> 
+              </div>-->
+              <div class="profit">
+                Your Address -
+                <div class="next" id="address"></div>
+                <div class="next"><p>We have updated our node to have a better experience, Thank you</p></div>
+              </div>
+            </div>
+      <!--  <a href="https://www.bscscan.com/address/0x8c705c8814d5a1e4b7b12ca4c6c745fff5c42469" class="btn" target="_blank">Check Contract</a> -->
+          </div>
+          <div class="lang">
+            <span class="lang-title">Select language</span> 
+            <ul>
+              <li><a href="#"><span class="lang-icon us"></span></a>
+              </li>
+            </ul>
+          </div>
+          <nav class="main-nav">
+            <button class="menu-toggle">Menu</button>
+            <div class="menu-wrap">
+              <ul class="menu">
+                <li><a href="#about" data-toggle="scroll">About Us</a>
+                </li>
+                <li><a href="#investment" data-toggle="scroll">Smart Farming Plans</a>
+                </li>
+                <li><a href="#contacts" data-toggle="scroll">Ask Us Questions</a>
+                </li>
+               <!--  <li><a data-modal="" data-src="#stat" href="#">Make Investment</a>
+                </li> -->
+                <!-- <li><a href="#" data-modal="" data-src="#promo">Promote Us</a>
+                </li> -->
+              </ul>
+              <button class="menu-close"></button>
+            </div>
+            <div class="btn-wrap" >
+              <a data-modal="" onclick="connect()" id="btnc" class="btn">
+			  <span style="font-size:1.2rem" class="mt-2" id="connect">Connect</span>
+			  <span style="font-size:1.2rem" class="mt-2" id="dashboard"></span>
+					   
+			  </a><!-- data-modal="" href="#" id="connectButton" --> 
+			  <!-- <a data-modal="" href="#" id="dashboard" class="btn" data-src="#stat" >DASHBOARD</a> -->
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="wrapper">
+        <div class="main-content">
+          <a href="index-2.html" class="logo">
+            <img src="img/fastbnblogo.png" alt="">
+          </a>
+          <h1>GrowBNB yield Smart Contract</h1>
+          <p id="bnbprice" hidden>366.97</p>
+		  <p>GrowBNB Binance smart chain based verified audited contract enables the use of Binance Coin BEP-20 for use in yield farming industry. The Longevity and stability of GrowBNB will ultimately bring crypto users, miners, users under single platform to stake, refer and earn seed income with unlimited opportunities making use of decentralization becomes a perfect yield platform which operates effortlessly 24x7 all the days of year!</p>
+        </div>
+      </div>
+    </div>
+    <!-- promo section end -->
+
+    <!-- about section -->
+    <div class="about">
+      <div class="wrapper clearfix">
+        <div class="about-info">
+          <div class="daily">
+            <div class="daily-num js-contract-rate">
+             3%
+            </div>
+            <div class="daily-content">
+              Current Max Daily Profit - <span class="js-contract-rate">3%</span>
+              <div class="daily-capt">
+                Additional Seed income bonus for every block 
+              </div>
+              <div class="daily-val" data-num="0" style="display:none;">0</div>
+            </div>
+          </div>
+          <div class="block">
+            <div class="block-title">Interest Calculator</div>
+            <form>
+              <div class="calc-top">
+                <div class="calc-input">
+                  <input type="text" class="input" id="amt" data-current-bonus="0.1" data-base-bonus="5" value="1">
+                  <span class="label"><span class="bnb"></span></span>
+				  <br>
+				  	<select class="input" name="plan" id="plan" onchange="calculateAmount(this.value)">
+					  <option value="" disabled selected>Choose your Plan</option>
+					  <option value="hen">Hen Farming</option>
+					  <option value="cow">Cow Farming</option>
+					  <option value="ox">Ox Farming</option>
+					  <!-- <option value="ox">Ox Farming</option> -->
+					</select>
+					
+                </div>
+                <div class="calc-time">
+
+                  <i class="svgicon svgicon-time">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#time"></use> 
+
+  </svg>
+
+</i>
+Earning in Real Time
+                </div>
+              </div>
+              <div class="table">
+                <div class="table-row">
+                  <div class="label">Daily Profit %</div>
+                  <div class="val" id="daily"><span class="badge"></span>
+                  </div>
+                </div>
+                <div class="table-row">
+                  <div class="label">Daily Profit BNB</div>
+                  <div class="val" id="dailybnb"><span class="badge"></span>
+                  </div>
+                </div>
+                <div class="table-row">
+                  <div class="label">Maximum Profit %</div>
+                  <div class="val" id="max"><span class="badge"></span>
+                  </div>
+                </div>
+                <div class="table-row">
+                  <div class="label">Maximun Profit BNB</div>
+                  <div class="val" id="maxbnb"><span class="badge"></span>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="block">
+            <div class="stats">
+              <div class="stats-row">
+                <div class="stats-item">
+                  <div class="stats-label"><span class="">1</span> <span class="cur"><span class="bnb"></span></span>
+                  </div>
+                  Deposit Amount
+                </div>
+                <div class="stats-item">
+                  <div class="stats-label"><span class="js-contract-rateNP">270</span> <span class="cur">%</span> | 2.7 <span class="bnb"></span> 
+                  </div>
+                  Farming Profit
+                </div>
+              </div>
+              <div class="stats-row">
+                <div class="stats-item">
+                   <div class="stats-label"><span class="js-contract-rateNP">18</span> <span class="cur">%</span> | 0.18 <span class="bnb"></span> 
+                  </div>
+                  Referral Profit
+                </div>
+                <div class="stats-item">
+                   <div class="stats-label"><span class="js-contract-rateNP">77.3</span> <span class="cur">%</span> | 1.392 <span class="bnb"></span> 
+                  </div>
+                  Seed Income 
+                </div>
+              </div>
+              <div class="stats-row">
+                <div class="stats-item">
+                  <div class="stats-label">3.3764 <span class="bnb"></span>
+                  </div>
+                  Total Maximal Return
+                </div>
+                <div class="stats-item btn-item">
+                  <a data-modal="" data-src="#stat" href="#" class="btn btn-2 btn-block">Get Started Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content">
+       
+          <div class="about-list">
+            <div class="about-item">
+             Yield income paid on <strong>each and every block </strong> on Binance Smart Chain (approximately 3 seconds) from 60 days to Maximum is infinity.
+            </div>
+            <div class="about-item">
+			  Minimum <strong>1.25% daily for infinite days (practically limited 10,000 days) </strong> to up to short term yield of 3% daily for 90 days.
+            </div>
+            <div class="about-item">
+              User can refer <strong>unlimited</strong> users under any level which way goes paying upto 10 Levels starting from <strong>6%</strong> to a total of upto <strong>18%</strong> unrestricted earing potentials
+            </div>
+            <div class="about-item">
+              Seed Incomes paid on each and every block and upto <strong>77.3%</strong> of referrals dividends yield income which is again unrestricted earning potentials.
+            </div>
+            <div class="about-item">
+              Safe, transparent, legit, decentralized never ending farm yield to earn from.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about section end -->
+
+    <!-- why section -->
+    <section class="why" id="about">
+      <div class="wrapper">
+        <h2><strong>Why</strong> FASTBNB?</h2>
+        <div class="why-columns">
+          <div class="column">
+            <div class="why-icon">
+              <img src="img/icons/about.svg" alt="">
+            </div>
+            <h4 class="why-title">What is Seed income? </h4>
+            <div class="why-content">
+              <p>Seed income is referred to income generated in real time over your referral dividends.  </p>
+              <p>E.g. User A refers user B, User B staked 10 BNB in plan Ox farming receiving 3% daily so user A would be entitled to receive 10% of 0.3 BNB i.e. 0.03 BNB daily.   </p>
+			  <p>At GrowBNB user gets opportunity to earn seed income from its downline upto 100 Level paid every second 24X7 and are instantly available for withdrawals without any restrictions.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="why-icon">
+              <img src="img/icons/referal.svg" alt="">
+            </div>
+            <h4 class="why-title">Referral Program</h4>
+            <div class="why-content">
+              <p>No business in the world succussed without team members at GrowBNB each of referral is a team member on its own towards FastBNB. </p>
+              <p>Fast BNB offer unrestricted unlimited potential for referral income upto 10 Level where each level on its own can have unlimited referrals.</p>
+			  <p>GrowBNB offers Level-1= 6%, Level-2=4%, Level-3=3%, Level-4=2%, Level-5=1%, Level-6=0.5%, Level-7=0.5%, Level-8=0.5%, Level-9=0.25% & Level-10=0.25%  </p>
+			  <p>In total of 18% in referral commission.</p>
+            </div>
+          </div>
+          <div class="column diagram-column">
+            <div class="diagram">
+              <div class="diagram-main">
+                <canvas id="chart" width="216" height="216"></canvas>
+                <script>
+                  var ctx = document.getElementById('chart').getContext('2d');
+    
+    
+                  var data = {
+                      datasets: [{
+                          data: [85, 5, 10],
+                          backgroundColor: [
+                            '#F0BA4A',
+                            '#B2B2B2',
+                            '#6DA544',
+                          ],
+                          borderColor: '#1D2637',
+                          borderWidth: 3,
+    
+                      }],
+                      labels: [
+                          'Main Contract Balance, <br/>Liquidity Farming',
+                          'For Marketing',
+                          'For Admin',
+                      ]
+                  };
+    
+                  var myDoughnutChart = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: data,
+                    options: {
+                      cutoutPercentage: 60,
+                      legend: {
+                        display: false
+                      },
+                      hover: false,
+                      tooltips: {
+                        enabled: false,
+                        custom: function(tooltipModel) {
+                          // Tooltip Element
+                          var tooltipEl = document.getElementById('chartjs-tooltip');
+    
+                          // Create element on first render
+                          if (!tooltipEl) {
+                              tooltipEl = document.createElement('div');
+                              tooltipEl.id = 'chartjs-tooltip';
+                              tooltipEl.innerHTML = '<table></table>';
+                              document.body.appendChild(tooltipEl);
+                          }
+    
+                          // Hide if no tooltip
+                          if (tooltipModel.opacity === 0) {
+                              tooltipEl.style.opacity = 0;
+                              return;
+                          }
+    
+                          // Set caret Position
+                          tooltipEl.classList.remove('above', 'below', 'no-transform');
+                          if (tooltipModel.yAlign) {
+                              tooltipEl.classList.add(tooltipModel.yAlign);
+                          } else {
+                              tooltipEl.classList.add('no-transform');
+                          }
+    
+                          function getBody(bodyItem) {
+                              return bodyItem.lines;
+                          }
+    
+                          // Set Text
+                          if (tooltipModel.body) {
+                              var titleLines = tooltipModel.title || [];
+                              var bodyLines = tooltipModel.body.map(getBody);
+    
+                              var innerHtml = '<thead>';
+    
+                              titleLines.forEach(function(title) {
+                                  innerHtml += '<tr><th>' + title + '</th></tr>';
+                              });
+                              innerHtml += '</thead><tbody>';
+    
+                              bodyLines.forEach(function(body, i) {
+                                  var colors = tooltipModel.labelColors[i];
+                                  var style = 'background:' + colors.backgroundColor;
+                                  style += '; border-color:' + colors.borderColor;
+                                  style += '; border-width: 2px';
+                                  var span = '<span style="' + style + '"></span>';
+                                  innerHtml += '<tr><td>' + span + body + '</td></tr>';
+                              });
+                              innerHtml += '</tbody>';
+    
+                              var tableRoot = tooltipEl.querySelector('table');
+                              tableRoot.innerHTML = innerHtml;
+                          }
+    
+                          // `this` will be the overall tooltip
+                          var position = this._chart.canvas.getBoundingClientRect();
+    
+                          // Display, position, and set styles for font
+                          tooltipEl.style.opacity = 1;
+                          tooltipEl.style.position = 'absolute';
+                          tooltipEl.style.left = position.left + window.pageXOffset + tooltipModel.x + 'px';
+                          tooltipEl.style.top = position.top + window.pageYOffset + tooltipModel.y + 'px';
+                          tooltipEl.style.fontFamily = tooltipModel._bodyFontFamily;
+                          tooltipEl.style.fontSize = tooltipModel.bodyFontSize + 'px';
+                          tooltipEl.style.fontStyle = tooltipModel._bodyFontStyle;
+                          tooltipEl.style.fontColor = "#FFF";
+                          tooltipEl.style.backgroundColor = "#5DAA80";
+                          tooltipEl.style.cornerRadius = 5;
+    
+    
+                          tooltipEl.style.padding = '7px ' + ' 15px';
+                          tooltipEl.style.pointerEvents = 'none';
+                        }
+                      }
+                    }
+                  });
+                </script>
+              </div>
+              <div class="diagram-capt">
+                <span>85%</span>
+Main Contract Balance,
+                <br/>Liquidity Farming
+              </div>
+            </div>
+            <table class="legend">
+              <tr>
+                <td>Main Contract Balance,
+                  <br/>Liquidity Farming</td>
+                <td style="color: #F0BA4A; font-size: 18px;">85%</td>
+              </tr>
+              <tr>
+                <td>For Marketing</td>
+                <td style="color: #B2B2B2; font-size: 18px;">5%</td>
+              </tr>
+              <tr>
+                <td>For Admin</td>
+                <td style="color: #6DA544; font-size: 18px;">10%</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why section end -->
+
+    <!-- code-block-->
+    <div class="code-block ">
+      <div class="wrapper clearfix">
+        <div class="code-block-left">
+          <div class="code-block-title">
+            <img src="img/icons/solidity66546654.svg?v1" alt="Solidity logo">Solidity Code
+            
+          </div>
+
+          <div class="code-panel">
+            <div class="code-wrap" data-simplebar>
+              <img src="img/code.jpg" >
+            </div>
+          </div>
+        </div>
+        <div class="code-block-right">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/_qX7HtMhZcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        </div>
+      </div>
+    </div>
+    <!-- code-block end -->
+
+    <!-- conditions section -->
+    <section class="conditions" id="investment">
+      <div class="wrapper">
+        <h2><strong>How it</strong> Works</h2>
+        <div class="text">
+          <p>Our solution is a smart contract transaction protocol that automatically implements the terms of a contract amongst all users. Similar to the common contract, both users in our platform will have to define the rules and terms of engagement while transacting. Upon agreement and initiation of the smart contract, it runs as designed with zero chance of orchestrating an alteration to pre-determined conditions. GrowBNB to start with as low as 0.1 BNB higher side being unlimited. The rest users leave it to the contract to implement with no more long sitting hours to check when to sell or buy. Therefore, as per contract terms, it ensures your farming yeild never drops, instead it delivers to our user’s sure yield returns on their staking.</p>
+        </div>
+
+        <div class="cond clearfix">
+          <div class="cond-main">
+            <div class="cond-stat">
+
+              <i class="svgicon svgicon-coinicon">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#coinicon"></use> 
+
+  </svg>
+
+</i>
+
+              <strong class="js-contract-rate">3%</strong>
+Maximum Daily
+            </div>
+            <p>Additional Seed income bonus for every block & Referral income.
+              </p>
+          </div>
+          <div class="cond-content">
+			   <div class="pref-list">
+				  <div class="pref-item">
+					 <div class="pref-icon">
+						<i class="svgicon svgicon-coin_up">
+						   <svg>
+							  <use xlink:href="img/icons/symbol/sprite.svg#coin_up"></use>
+						   </svg>
+						</i>
+					 </div>
+					 <div class="pref-title">Hen Farming:</div>
+					 <div class="pref-val">1.25% <span>/ Daily </span>
+					 </div>
+					 <div class="pref-capt">
+						&#8734;
+						<br/>
+						<span>Forever</span>
+					 </div>
+				  </div>
+				  <div class="pref-item">
+					 <div class="pref-icon">
+						<i class="svgicon svgicon-coin_up">
+						   <svg>
+							  <use xlink:href="img/icons/symbol/sprite.svg#coin_up"></use>
+						   </svg>
+						</i>
+					 </div>
+					 <div class="pref-title"> Cow Farming:</div>
+					 <div class="pref-val">2.5% <span>/ Daily </span></div>
+					 <div class="pref-capt">
+						375%
+						<br/>
+						<span>150 Days</span>
+					 </div>
+				  </div>
+				  <div class="pref-item">
+					 <div class="pref-icon">
+						<i class="svgicon svgicon-coin_up">
+						   <svg>
+							  <use xlink:href="img/icons/symbol/sprite.svg#coin_up"></use>
+						   </svg>
+						</i>
+					 </div>
+					 <div class="pref-title">OX Farming:</div>
+					 <div class="pref-val">3% <span>/ Daily </span></div>
+					 <div class="pref-capt">
+						270%
+						<br/>
+						<span>90 Days</span>
+					 </div>
+				  </div>
+			  
+			  <!-- <div class="pref-item">
+				  <div class="pref-icon">
+					 <i class="svgicon svgicon-coin_up">
+						<svg>
+						   <use xlink:href="img/icons/symbol/sprite.svg#coin_up"></use>
+						</svg>
+					 </i>
+				  </div>
+				  <div class="pref-title">Ox Farming:</div>
+				  <div class="pref-val">3% <span>/ Daily </span></div>
+				  <div class="pref-capt">
+					 180%
+					 <br/>
+					 <span>60 Days</span>
+				  </div>
+			   </div>-->
+			 </div>   
+			</div>
+            <!--<div class="advantages">
+              <div class="item">
+                <span class="item-icon">
+
+<i class="svgicon svgicon-profit">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#profit"></use> 
+
+  </svg>
+
+</i>
+
+</span>
+Earnings in realtime
+              </div>
+              <div class="item">
+                <span class="item-icon">
+
+<i class="svgicon svgicon-withdraw">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#withdraw"></use> 
+
+  </svg>
+
+</i>
+
+</span>
+Withdraw anytime
+              </div>
+            </div>-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- conditions section end -->
+
+    <!-- how section -->
+   <!-- <section class="how">
+      <div class="wrapper">
+        <h2>How To <strong>Make Deposit</strong>?</h2> 
+        <div class="how-content">
+          <div class="how-block ">
+            <div class="block">
+              <div class="how-title"><span class="num">1</span>Make Deposit</div>
+              <div class="table">
+                <div class="table-row">
+                  <div class="label">GET <span class="bnb"></span></div>
+                  <div class="val"><a data-modal="" data-src="#how" href="#" class="btn btn-bordered">HOW TO GET <span class="bnb"></span></a>
+                  </div>
+                </div>
+                <div class="table-row">
+                  <div class="label">SEND <span class="bnb"></span> TO OUR <span class="contract"></span>
+                  </div>
+                  <div class="val"><a data-modal="" data-src="#make-deposit" href="#" class="btn btn-bordered">Make Deposit</a>
+                  </div>
+                </div>
+              </div>
+              <form class="how-form">
+                <h4>Specify deposit <span class="bnb"></span> amount here:</h4>
+                <div class="deposit-input">
+                  <input type="text" class="input js-calc" value="1">
+                  <span class="label"><span class="bnb"></span></span>
+                </div>
+                <div class="deposit-capt">Minimal deposit amount is 0.01 <span class="bnb"></span>
+                </div>
+                <input type="submit" value="Make Deposit" class="btn btn-2 btn-block">
+              </form>
+            </div>
+          </div>
+
+          <div class="how-block">
+            <div class="block">
+              <div class="how-title"><span class="num">2</span>Request Withdraw</div>
+              <ul class="arr-list">
+                <li>Your Payout Will Come Instantly</li>
+                <li>Request Withdraw From The Same Wallet You Deposited</li>
+              </ul>
+              <div class="wallet js-loggedin" style="display:none;">
+                <h4>Your <span class="bnb"></span> wallet address:</h4> 
+
+                <i class="svgicon svgicon-pay-per-click">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#pay-per-click"></use> 
+
+  </svg>
+
+</i>
+
+                <div class="adress">
+                  <div class="val js-useraddress"></div>
+                  Your Wallet
+                </div>
+                <div class="how-buttons">
+                  <div><a data-modal="" data-src="#stat" href="#" class="btn btn-2 btn-stats">WALLET STATISTICS</a>
+                  </div>
+                  <div><a href="#" data-modal="" data-src="#confirmDividends" class="btn btn-cancel">Withdraw Money</a>
+                  </div>
+                </div>
+              </div>
+				<div class="invite js-loggedout">
+                <img src="temp/img/data/connect6654.html?v1" alt="">
+                <div class="invite-title">Connect With Your Wallet App</div>
+                <a href="#" data-fancybox="" data-src="#how" class="btn btn-bordered btn-block">Connect Wallet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- how section end -->
+
+    <!-- footer -->
+    <footer class="footer" id="contacts">
+      <span class="footer-decor"></span>
+      <div class="wrapper">
+        <div class="footer-columns clearfix">
+          <div class="footer-left">
+            <div class="logo-wrap">
+              <a href="index-2.html" class="logo">
+                <img src="img/fastbnblogo.svg" alt="">
+              </a>
+              <div class="copyright">© 2021 <a href="index-2.html">Fastbnb.io</a>
+              </div>
+            </div>
+
+            <div class="smart-adress">
+              <div class="table">
+                <div class="table-row">
+                  <div class="label">
+
+                    <i class="svgicon svgicon-case">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#case"></use> 
+
+  </svg>
+
+</i>
+
+                  <!--  <span class="contract"></span> Address:
+                    <div><a href="https://bscscan.com/address/0x8C705C8814D5A1E4b7b12ca4c6c745FFf5C42469" target="_BLANK">0x8C705C8...f5C42469</a></div> -->
+                  </div>
+                  <div class="val">
+                    <a target="_blank" href="#" class="btn btn-bordered">Check Audit</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-right">
+            <div class="contacts-title">
+              CONTACT US
+             <!-- <div class="contacts-lang">
+                <span class="cur-lang">English</span>
+                <div class="lang-dropdown">
+                  <ul>
+                    <li><a href="https://t.me/fastbnbio">English</a>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div> -->
+            </div>
+            <div class="contacts">
+              <div class="contacts-col">
+                <div class="contacts-item">
+                  <div class="contacts-icon">
+
+                    <i class="svgicon svgicon-tg">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#tg"></use> 
+
+  </svg>
+
+</i>
+
+                    <span class="lang-icon us"></span>
+                  </div>
+                 <!--  <div class="contacts-block">
+                    <div class="item">
+                      English Telegram Group:
+                      <div class="tg-link"><a href="https://t.me/fastbnbio" target="_BLANK">@fastbnbio</a>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="wrapper">
+          <div class="fb-content">
+            <span class="fb-title">Reserve Domains</span>
+            <a href="index-2.html" class="btn">fastbnb.io</a>
+
+            <button class="gotop">
+              <i class="svgicon svgicon-arrow">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#arrow"></use> 
+
+  </svg>
+
+</i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- stat popup -->
+    <div id="stat" class="modal modal-double">
+      <div class="modal-body-wrap">
+        <div class="modal-backdrop"></div>
+        <div class="modal-body-scroll">
+          <div class="modal-body">
+            <button type="button" class="modal-close" title="Close">
+              <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+                <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+              </svg>
+			  
+			 </button>
+<div class="modal-double-content">
+        <div class="modal-part">
+          <div class="block">
+            <div class="modal-title">
+              Wallet Statistics
+            </div>
+            <div class="modal-content">
+              <p>Here you will be able to view all your wallet statistics including yeild portfolio, profits, held bonuses, and contract balance bonuses. Through this interface, you can make withdrawals, yeilds, and many more.</p>
+
+             <!--  <div class="witem">
+                <div class="witem-icon">
+
+                  <i class="svgicon svgicon-pay-per-click">
+
+					  <svg>
+
+						<use xlink:href="img/icons/symbol/sprite.svg#pay-per-click"></use> 
+
+					  </svg>
+
+					</i>
+
+                </div>
+                <div class="witem-content">
+                  <div class="witem-title" ></div>
+                  <span id="address"></span>
+                </div>
+                <div class="witem-opts">
+                  <button class="witem-copy" data-copy="#address">
+                    <i class="svgicon svgicon-copy">
+
+						  <svg>
+
+							<use xlink:href="img/icons/symbol/sprite.svg#copy"></use> 
+
+						  </svg>
+
+					</i>
+                  </button>
+                </div>
+              </div> -->
+				 <a  href="#" class="btn btn-2 btn-block">Make Deposit</a>
+				 
+				<div class="wd-item">
+					
+					<div class="wd-item-content">
+						<div class="sum js-dividends">
+						 HEN FARMING (Forever)
+						</div>
+						<div class="eq js-dividends">1.25% / Daily | &#8734;</div>
+						<div class="deposit-input">
+							<input class="input " id="bnbamount0" type="number" step="0.01" placeholder="Enter BNB amount" min="0.1" required="required">
+							<span class="label"><span class="bnb"></span></span>
+						</div>
+						<div class="sum js-dividends"></div>
+						<a href="javascript:void(0);" onclick="stakebnb(0)" class="btn btn-3 btn-block">
+						Stake BNB</a>
+					</div>
+					
+				</div>
+				  
+				<div class="wd-item">
+					
+					<div class="wd-item-content">
+						<div class="sum js-dividends">
+						 COW FARMING (150 Days)
+						</div>
+						<div class="eq js-dividends">2.5% / Daily | 375%</div>
+						<div class="deposit-input">
+							<input class="input" id="bnbamount1" type="number" step="0.01" placeholder="Enter BNB amount" min="0.1" required="required">
+							<span class="label"><span class="bnb"></span></span>
+						</div>
+						<div class="sum js-dividends"></div>
+						<a href="javascript:void(0);" onclick="stakebnb(1)" class="btn btn-3 btn-block">
+						Stake BNB</a>
+					</div>
+					
+				</div>
+				<div class="wd-item">
+					
+					<div class="wd-item-content">
+						<div class="sum js-dividends">
+						 Ox FARMING (90 Days)
+						</div>
+						<div class="eq js-dividends">3% / Daily | 270%</div>
+						<div class="deposit-input">
+							<input class="input " id="bnbamount2" type="number" step="0.01" placeholder="Enter BNB amount" min="0.1" required="required">
+							<span class="label"><span class="bnb"></span></span>
+						</div>
+						<div class="sum js-dividends"></div>
+						<a href="javascript:void(0);" onclick="stakebnb(2)" class="btn btn-3 btn-block">
+						Stake BNB</a>
+					</div>
+					
+				</div>
+				  
+				<!-- <div class="wd-item">
+					
+					<div class="wd-item-content">
+						<div class="sum js-dividends">
+						 OX FARMING (60 Days)
+						</div>
+						<div class="eq js-dividends">3% / Daily | 180%</div>
+						<div class="deposit-input">
+							<input class="input" id="bnbamount3" type="number" step="0.01" placeholder="Enter BNB amount" min="0.1" required="required">
+							<span class="label"><span class="bnb"></span></span>
+						</div>
+						<div class="sum js-dividends"></div>
+						<a href="javascript:void(0);" onclick="stakebnb(3)" class="btn btn-3 btn-block">
+						Stake BNB</a>
+					</div>
+					
+				</div> -->
+			  
+			 
+            </div>
+          </div>
+
+          <div class="block">
+		    <div class="wd-item">
+                <div class="wd-item-content">
+                  Available Withdraw Balance:
+                  <div class="sum js-dividends"><span id="withdrawbal">0.00000</span> <span class="bnb"></span></div>
+                  <div class="eq js-dividends-usd"><span id="wbalusd">0.00000</span> USD</div>
+                </div>
+                <div class="wd-item-btns">
+                  <a href="#" data-modal="" data-src="#confirmDividends" class="btn btn-bordered recieve-btn">
+                    <i class="svgicon svgicon-download">
+
+					  <svg>
+
+						<use xlink:href="img/icons/symbol/sprite.svg#download"></use> 
+
+					  </svg>
+
+					</i>
+					Withdraw</a>
+                </div>
+              </div>
+		  </div>
+          <div class="block">
+		  <div class="stat-columns">
+                <div class="col">
+                  <div class="witem">
+                    <div class="witem-content">
+                      <div class="witem-title with-info">
+                        <span class="amount"><span id="totdep"></span> BNB</span>
+                       
+                      </div>
+                      Total Deposit:
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="witem">
+                    <div class="witem-content">
+                      <div class="witem-title with-info">
+                        <span class="amount"><span id="totwith"></span> BNB
+                        
+                      </div>
+                      Total Withdraw:
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            <!-- <div class="table">
+              <div class="table-row">
+                <div class="label">Total Invested:</div>
+                <div class="val"><span class="badge js-user-invested">0.00 <span class="bnb"></span></span>
+                </div>
+              </div>
+              <div class="table-row">
+                <div class="label">Number of deposits:</div>
+                <div class="val"><span class="badge js-user-deposits">0</span>
+                </div>
+              </div>
+              <div class="table-row">
+                <div class="label">Last deposit date:</div>
+                <div class="val"><span class="badge js-user-checkpoint">-</span>
+                </div>
+              </div>
+              <div class="table-row">
+                <div class="label">
+                  <br>
+                </div>
+                <div class="val">
+                  <br>
+                </div>
+              </div>
+              <div class="table-row">
+                <div class="label">Total earned:</div>
+                <div class="val"><span class="badge js-user-earned">0.00 <span class="bnb"></span></span>
+                </div>
+              </div>
+              <div class="table-row">
+                <div class="label">Total withdrawn:</div>
+                <div class="val"><span class="badge js-user-withdrawn">0.00 <span class="bnb"></span></span>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="modal-part">
+          <div class="block">
+            <div class="modal-title">
+              Referral Statistics
+            </div>
+            <div class="modal-content">
+              <p>This window gives you access to detailed information relating to your referral statistics. You can view Your Upline, Referral Link (active after a minimum deposit of 0.1 BNB. GrowBNB is the only  platform giving you access to such detailed referral statistics! Refer to as many users as you can and enjoy massive earnings on this wonderful platform.</p>
+
+              <div class="ref-witems">
+                <div class="witem ref-witem js-hide-referral">
+                  <div class="witem-icon">
+
+                    <i class="svgicon svgicon-internet">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#internet"></use> 
+
+  </svg>
+
+</i>
+
+                  </div>
+                  <div class="witem-content">
+                    <div class="witem-title "><span id="referrallink"></span>
+                    </div>
+                     Share Your Referral Link...&nbsp; &nbsp;
+					<span id="fb"></span>&nbsp; &nbsp;
+					<span id="wa"></span>&nbsp; &nbsp;
+					<span id="tw"></span>
+                  </div>
+                  <div class="witem-opts">
+
+                    <button class="witem-copy" data-copy="#referrallink">
+                      <i class="svgicon svgicon-copy">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#copy"></use> 
+
+  </svg>
+
+</i>
+                    </button>
+                  </div>
+                </div>
+                <div class="witem ref-witem">
+                  <div class="witem-icon">
+
+                    <i class="svgicon svgicon-internet">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#internet"></use> 
+
+  </svg>
+
+</i>
+
+                  </div>
+                  <div class="witem-content">
+                    <div class="witem-title js-user-upline">
+					 <input type="hidden" class="form-control" id="referral_key" placeholder="" value="0x0000000000000000000000000000000000000000" readonly>
+					
+					</div>
+                    Scan QR Code <br>
+					  
+                  </div>
+                 <span id="qrimg"></span>
+                </div>
+              </div>
+			
+
+              <div class="rewards">
+                <h4>Rewards</h4>
+                <div class="rewards-item">
+                  <div class="witem">
+                    <div class="witem-icon">
+
+                      <i class="svgicon svgicon-reward">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#reward"></use> 
+
+  </svg>
+
+</i>
+
+                    </div>
+                    <div class="witem-content">Farming Dividends:</div>
+                    <div class="witem-amount">
+                      <span class="amount"><span id="dividends">0.00000</span> <span class="cur"><span class="bnb"></span></span></span>
+                      <span class="amount"><span id="dividendsusd">0.00000</span>  <span class="cur">USD</span></span>
+                    </div>
+                   
+                  </div>
+                </div>
+               
+                <div class="rewards-item">
+                  <div class="witem">
+                    <div class="witem-icon">
+
+                      <i class="svgicon svgicon-reward">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#reward"></use> 
+
+  </svg>
+
+</i>
+
+                    </div>
+                    <div class="witem-content">Seed Income:</div>
+                    <div class="witem-amount">
+                     <!-- <span class="amount">Total: <span id="seed">0.00000</span> <span class="cur"><span class="bnb"></span></span></span>-->
+                      <span class="amount">Current: <span id="seedcurrent">0.00000</span> <span class="cur"><span class="bnb"></span></span></span> 
+                    </div>
+                    <div class="witem-opts">
+ 
+                    </div>
+                  </div>
+                </div>
+                <div class="rewards-item">
+                  <div class="witem">
+                    <div class="witem-icon">
+
+                      <i class="svgicon svgicon-reward">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#reward"></use> 
+
+  </svg>
+
+</i>
+
+                    </div>
+                    <div class="witem-content">Referral Income:</div>
+                    <div class="witem-amount">
+                      <span class="amount">Referrals: <span id="tuser"></span> | Earnings: <span id="earning">0.00</span> <span class="cur"><span class="bnb"></span></span></span>
+                      <br><span class="amount">Current Earnings: <span id="currentearning">0.00</span> <span class="cur"><span class="bnb"></span></span></span>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+		   <div class="block">
+		    <div class="wd-item">
+               
+				 <div class="wd-item-content">
+                  Total Direct business:
+                  <div class="sum js-dividends"><span id="totaldirectsell">0.00000</span> <span class="bnb"></span></div>
+                  <div class="eq js-dividends-us"><span id="totaldirectsellusd">0.00000</span> <span class=""> $</span></div>
+                
+                </div>
+				 <div class="wd-item-content">
+                  Total Referral business:
+                  <div class="sum js-dividends"><span id="totalteamsell">0.00000</span> <span class="bnb"></span></div>
+                  <div class="eq js-dividends-us"><span id="totalteamsellusd">0.00000</span> <span class=""> $</span></div>
+                
+                </div>
+				<div class="wd-item-content">
+                  Total Seed business:
+                  <div class="sum js-dividends"><span id="totalseedsell">0.00000</span> <span class="bnb"></span></div>
+                  <div class="eq js-dividends-us"><span id="totalseedsellusd">0.00000</span> <span class=""> $</span></div>
+                
+                </div>
+				
+               
+              </div>
+			  
+             <a href="#" data-modal="" data-src="#offer" class="btn btn-3 btn-block">
+                    <i class="svgicon svgicon-download">
+
+					  <svg>
+
+						<use xlink:href="img/icons/symbol/sprite.svg#download"></use> 
+
+					  </svg>
+
+					</i>
+					Promotion</a>
+                
+		  </div>
+
+          <div class="block">
+            <div class="ref-levels">
+              <div class="ref-level level1">
+                <div class="ref-level-icon">
+                  <img src="img/icons/ref3.png">
+                </div>
+                <div class="ref-level-content">
+                  <div class="ref-level-title">1st Referral Level:</div>
+                  Active Referrals: <strong id="lvl1">0</strong>
+                </div>
+                <div class="ref-level-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Your active referrals
+                    </div>
+                  </div>
+
+                  <a data-modal href="#" class="btn btn-bordered " onclick="getdown(1)" data-src="#ref" >Check Referrals</a>
+                </div>
+              </div>
+              <div class="ref-level level2">
+                <div class="ref-level-icon">
+                  <img src="img/icons/ref3.png">
+                </div>
+                <div class="ref-level-content">
+                  <div class="ref-level-title">2nd Referral Level:</div>
+                  Active Referrals: <strong id="lvl2">0</strong>
+                </div>
+                <div class="ref-level-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Your active referrals
+                    </div>
+                  </div>
+
+                  <a data-modal href="#" class="btn btn-bordered" onclick="getdown(2)" data-src="#ref">Check Referrals</a>
+                </div>
+              </div>
+              <div class="ref-level level3">
+                <div class="ref-level-icon">
+                  <img src="img/icons/ref3.png">
+                </div>
+                <div class="ref-level-content">
+                  <div class="ref-level-title">3rd Referral Level:</div>
+                  Active Referrals: <strong id="lvl3">0</strong>
+                </div>
+                <div class="ref-level-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Your active referrals
+                    </div>
+                  </div>
+
+                  <a data-modal href="#" class="btn btn-bordered js-showRefs" onclick="getdown(3)" data-src="#ref">Check Referrals</a>
+                </div>
+              </div>
+              <div class="ref-level level4">
+                <div class="ref-level-icon">
+                  <img src="img/icons/ref3.png">
+                </div>
+                <div class="ref-level-content">
+                  <div class="ref-level-title">4th Referral Level:</div>
+                  Active Referrals: <strong id="lvl4">0</strong>
+                </div>
+                <div class="ref-level-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Your active referrals
+                    </div>
+                  </div>
+
+                  <a data-modal  href="#" class="btn btn-bordered js-showRefs" onclick="getdown(4)" data-src="#ref" >Check Referrals</a>
+                </div>
+              </div>
+			   <div class="ref-level level5">
+                <div class="ref-level-icon">
+                  <img src="img/icons/ref3.png">
+                </div>
+                <div class="ref-level-content">
+                  <div class="ref-level-title">5th Referral Level:</div>
+                  Active Referrals: <strong id="lvl5">0</strong>
+                </div>
+                <div class="ref-level-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Your active referrals
+                    </div>
+                  </div>
+
+                  <a data-modal  href="#" class="btn btn-bordered js-showRefs" onclick="getdown(5)" data-src="#ref">Check Referrals</a>
+                </div>
+              </div>
+			   <div class="ref-level level6">
+                <div class="ref-level-icon">
+                  <img src="img/icons/ref3.png">
+                </div>
+                <div class="ref-level-content">
+                  <div class="ref-level-title">6th Referral Level:</div>
+                  Active Referrals: <strong id="lvl6">0</strong>
+                </div>
+                <div class="ref-level-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Your active referrals
+                    </div>
+                  </div>
+
+                  <a data-modal  href="#" class="btn btn-bordered js-showRefs" onclick="getdown(6)" data-src="#ref">Check Referrals</a>
+                </div>
+              </div>
+			   <div class="ref-level level7">
+                <div class="ref-level-icon">
+                  <img src="img/icons/ref3.png">
+                </div>
+                <div class="ref-level-content">
+                  <div class="ref-level-title">7th Referral Level:</div>
+                  Active Referrals: <strong id="lvl7">0</strong>
+                </div>
+                <div data-modal  class="ref-level-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Your active referrals
+                    </div>
+                  </div>
+
+                  <a data-modal  href="#" class="btn btn-bordered js-showRefs" onclick="getdown(7)" data-src="#ref">Check Referrals</a>
+                </div>
+              </div>
+			  <div class="ref-level level8">
+                <div class="ref-level-icon">
+                  <img src="img/icons/ref3.png">
+                </div>
+                <div class="ref-level-content">
+                  <div class="ref-level-title">8th Referral Level:</div>
+                  Active Referrals: <strong id="lvl8">0</strong>
+                </div>
+                <div class="ref-level-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Your active referrals
+                    </div>
+                  </div>
+
+                  <a data-modal  href="#" class="btn btn-bordered js-showRefs" onclick="getdown(8)" data-src="#ref">Check Referrals</a>
+                </div>
+              </div>
+			   <div class="ref-level level9">
+                <div class="ref-level-icon">
+                  <img src="img/icons/ref3.png">
+                </div>
+                <div class="ref-level-content">
+                  <div class="ref-level-title">9th Referral Level:</div>
+                  Active Referrals: <strong id="lvl9">0</strong>
+                </div>
+                <div class="ref-level-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Your active referrals
+                    </div>
+                  </div>
+
+                  <a data-modal  href="#" class="btn btn-bordered js-showRefs" onclick="getdown(9)" data-src="#ref">Check Referrals</a>
+                </div>
+              </div>
+			   <div class="ref-level level10">
+                <div class="ref-level-icon">
+                  <img src="img/icons/ref3.png">
+                </div>
+                <div class="ref-level-content">
+                  <div class="ref-level-title">10th Referral Level:</div>
+                  Active Referrals: <strong id="lvl10">0</strong>
+                </div>
+                <div class="ref-level-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Your active referrals
+                    </div>
+                  </div>
+
+                  <a data-modal href="#" class="btn btn-bordered js-showRefs" onclick="getdown(10)" data-src="#ref">Check Referrals</a>
+                </div>
+              </div>
+			  
+            </div>
+          </div>
+        </div>
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- stat popup end -->
+
+
+  <!--  <div class="fixed-contacts">
+      <a href="https://t.me/fastbnbio" class="btn btn-2" target="_blank"><span class="lang-icon us"></span> 
+
+<i class="svgicon svgicon-tg2">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#tg2"></use> 
+
+  </svg>
+
+</i>
+
+ Eng</a>
+     
+    </div>-->
+
+
+  </div>
+
+
+
+  <!-- notices -->
+  <div class="notice-wrap">
+  </div>
+  <!-- notices end -->
+
+
+  <!-- MODALS -->
+  <div id="make-deposit" class="modal modal-lg">
+    <div class="modal-body-wrap">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body-scroll">
+        <div class="modal-body">
+          <button type="button" class="modal-close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+              <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+            </svg>
+          </button>
+          <div class="modal-title">
+            Make Deposit
+          </div>
+          <div class="modal-content">
+            <form id="make-deposit-form" action="#">
+              <div class="modal-columns clearfix">
+                <div class="column">
+                  <div class="deposit-input">
+                    <input type="text" class="input js-calc js-deposit-amount" value="1">
+                    <span class="label"><span class="bnb"></span></span>
+                  </div>
+                  <div class="deposit-capt">Minimal deposit amount is 0.01 <span class="bnb"></span>
+                  </div>
+
+                  <div class="important">
+                    <p><strong>IMPORTANT:</strong>
+                    </p>
+                    <p>Do not forget about <span class="bl"></span> fee! You should have 0.004 <span class="bnb"></span> more on your wallet, or your transaction will get out of energy status!</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <ul class="arr-list">
+                    <li>Minimal Deposit Amount: 0.01 <span class="bnb"></span> (No Maximal Limits)</li>
+                    <li>We Are Working Only With <span class="bnb"></span> Cryptocurrency</li>
+                    <li>Your Deposit Will Be Activated After 1 Confirmation In <span class="bl"></span>
+                    </li>
+                    <li>Earnings Comes Every Moment On Your Wallet Balance, You Can Withdraw It Any Time You Want</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="input-wrap">
+                <input type="submit" value="Make Deposit" class="btn btn-2 btn-block js-mdeposit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #make-deposit -->
+
+  <div id="thx" class="modal modal-sm">
+    <div class="modal-body-wrap">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body-scroll">
+        <div class="modal-body">
+          <button type="button" class="modal-close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+              <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+            </svg>
+          </button>
+          <div class="modal-title">
+            Make Deposit
+          </div>
+          <div class="modal-content">
+            <form>
+              <div class="thx-text">
+                <div class="thx-icon">
+
+                  <i class="svgicon svgicon-ok">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#ok"></use> 
+
+  </svg>
+
+</i>
+
+                </div>
+                <div class="thx-title">Successfully Deposit</div>
+                <p>We have received your Deposit. Now you can start attracting new members with your referral link and earn extra.</p>
+              </div>
+              <div class="stats">
+                <div class="stats-row">
+                  <div class="stats-item">
+                    <div class="stats-label"><span class="js-calc-amount js-deposit-amount-finish">1</span>  <span class="cur"><span class="bnb"></span></span>
+                    </div>
+                    Your Deposit
+                  </div>
+                  <div class="stats-item">
+                    <div class="stats-label"><span class="js-contract-rate">5.10</span>  <span class="cur">%</span>
+                    </div>
+                    Contract Profit Now
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #thx -->
+
+
+  <div id="how" class="modal modal-double">
+    <div class="modal-body-wrap">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body-scroll">
+        <div class="modal-body">
+          <button type="button" class="modal-close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+              <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+            </svg>
+          </button>
+          <div class="modal-double-content">
+            <div class="modal-part">
+              <div class="block">
+                <div class="modal-title with-icon">
+                  <span class="question">?</span> How To Get <span class="bnb"></span>?
+                </div>
+                <div class="modal-content">
+                  <p>You can easily acquire <span class="bnb"></span> from most popular cryptocurrency exchange platforms, like Binance, Poloniex, Bitfinex, OKEx, etc.</p>
+                  <p>After purchasing <span class="bnb"></span>, you can transfer it to your personal wallet, and then transfer it to our <span class="contract"></span> address.</p>
+
+                  <a href="https://www.binance.com/en/" target="_blank" class="btn btn-2">Binance</a>
+                  <a href="https://www.poloniex.com/" target="_blank" class="btn btn-2">Poloniex</a>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <div class="important">
+                    <p><strong>IMPORTANT:</strong>
+                    </p>
+                    <p>We are only working with personal wallets. Please don’t make deposits directly fromthe exchange platforms. If you do so, the payouts will be made to the exchange platform and not to your account - you will lose funds. As such, whenever
+                      you want to send <span class="bnb"></span> payments to our <span class="contract"></span> address, please route it through your personal wallet.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-part">
+              <div class="block">
+                <div class="modal-title with-icon">
+                  <span class="question">?</span> Which <span class="bnb"></span> Personal Wallets To Use?
+                </div>
+                <div class="modal-content">
+                  <div class="modal-img">
+                    <img src="img/data/iphone43a043a0.png?v3" alt="">
+                  </div>
+                  <p>You can use two types of wallets:</p>
+                  <h5>Browser Extensions, Like Metamask or Trustwallet:</h5>
+                  <p>Install The Extension On Your Favorite Browser And Create A Personal Wallet Address.</p>
+                  <h5>Mobile Crypto Wallets:</h5>
+                  <p>Use Any Personal Crypto Wallet That Supports <span class="bnb"></span> Cryptocurrency And <span class="bnb"></span> Dapps» Technology, Like TrustWallet, Metamaks, And Others.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #how -->
+
+
+  <div id="promo" class="modal">
+    <div class="modal-body-wrap">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body-scroll">
+        <div class="modal-body">
+          <button type="button" class="modal-close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+              <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+            </svg>
+          </button>
+          <div class="modal-title">
+            PROMO MATERIALS
+          </div>
+          <div class="modal-content">
+            <div class="ref-witems js-hide-referral" style="display:block;">
+              <div class="witem ref-witem">
+                <div class="witem-icon">
+
+                  <i class="svgicon svgicon-internet">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#internet"></use> 
+
+  </svg>
+
+</i>
+
+                </div>
+                <div class="witem-content">
+                  <div class="witem-title "><span id="your_ref_url" class="your_ref_url"></span>
+                  </div>
+                  Your Referral Link
+                </div>
+                <div class="witem-opts">
+                  <div class="info-icon">
+                    <i>i</i>
+                    <div class="comment">
+                      Once The <span class="bnb"></span>  <span class="contract"></span> Is Published On The <span class="bnb"></span>  <span class="bl"></span>, It Can’t Be Modified By Any Individual Or Administrative Body. Participants Can Rest Assured That
+                      Their Funds Are Perfectly Secure.
+                    </div>
+                  </div>
+                  <button class="witem-copy" data-copy="#your_ref_url">
+                    <i class="svgicon svgicon-copy">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#copy"></use> 
+
+  </svg>
+
+</i>
+                  </button>
+                </div>
+              </div>
+            </div>
+			<div class="invite-deposit js-ref-inactive" style="display:none;">
+								<div class="invite-deposit-icon">
+								  <i class="svgicon svgicon-lock">
+				  <svg>
+
+					<use xlink:href="img/icons/symbol/sprite.svg#lock"></use> 
+
+				  </svg>
+
+				</i>
+
+								</div>
+								<p>You Need Active Deposit To Unlock Referrals</p>
+              </div>
+            <div class="banners-select js-hide-referral" style="display:block;">
+              <div class="input-wrap">
+                <select class="select">
+                  <option disabled selected>Select Size</option>
+                  <option data-w="120" data-h="60">120x60</option>
+                  <option data-w="320" data-h="100">320x100</option>
+                  <option data-w="336" data-h="280">336x280</option>
+                  <option data-w="468" data-h="60">468x60</option>
+                  <option data-w="728" data-h="90">728x90</option>
+                  <option data-w="970" data-h="90">970x90</option>
+                  <option data-w="970" data-h="250">970x250</option>
+                </select>
+              </div>
+            </div>
+            <div class="banners-cont">
+              <textarea class="banners-code"></textarea>
+              <div class="banners-btns">
+                <a href="#" class="btn btn-2 gif-link" target="_blank">View Banner</a>
+                <a href="#" class="btn btn-2 banners-copy">Copy Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #promo -->
+
+
+  <div id="ref" class="modal">
+    <div class="modal-body-wrap">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body-scroll">
+        <div class="modal-body">
+          <button type="button" class="modal-close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+              <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+            </svg>
+          </button>
+          <div class="modal-title">
+            <p>Your Downline addresses</p><br>
+            <div>
+             
+			<span id="levelbody"></span>
+            </div>
+          </div>
+         <!-- <div class="modal-content">
+	    <div class="ref-item" id="RefTemplate" style="display:none;">
+            <div class="ref-item-top">
+              <div class='js-r-address'></div>
+              <div class="date js-r-joinned"></div>
+            </div>
+            <div class="ref-item-bottom">
+              <div>Invested: <span class="amout js-r-deposit">0 <span class="bnb"></span></span>
+              </div>
+              <div>Earned: <span class="amout js-r-earned">0 <span class="bnb"></span></span>
+              </div>
+            </div>
+      </div>
+            <div class="paginate" data-perpage='4'>
+              <div class="ref-list items js-result">
+
+              </div>
+              <div class="pager">
+                <div class="pageNumbers"></div>
+
+                <div class="previousPage">
+                  <i class="svgicon svgicon-arrow">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#arrow"></use> 
+
+  </svg>
+
+</i>
+                </div>
+                <div class="nextPage">
+                  <i class="svgicon svgicon-arrow">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#arrow"></use> 
+
+  </svg>
+
+</i>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #ref -->
+
+
+  <div id="subscribe" class="modal modal-sm">
+    <div class="modal-body-wrap">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body-scroll">
+        <div class="modal-body">
+          <button type="button" class="modal-close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+              <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+            </svg>
+          </button>
+          <div class="modal-title">
+          </div>
+          <div class="modal-content">
+            <div class="subscribe-text">
+              <div class="subscribe-icon">
+                <img src="img/data/subscribe.png" alt="">
+              </div>
+              <div class="subscribe-title">Subscribe To Newsletter</div>
+              <p>Subscribe to our newsletter to get updates on the Contests, Airdrops and many more!</p>
+            </div>
+            <form class="subscribe-form">
+              <div class="input-wrap">
+                <input type="email" required placeholder="Your E-Mail" class="input" type="email">
+              </div>
+              <div class="input-wrap">
+                <input type="submit" value="Subscribe" class="btn btn-block">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #subscribe -->
+
+
+  <div id="confirmCommissions" class="modal modal-sm">
+    <div class="modal-body-wrap">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body-scroll">
+        <div class="modal-body">
+          <button type="button" class="modal-close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+              <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+            </svg>
+          </button>
+          <div class="modal-title">
+            Are you sure you would like to Withdraw all commissions?
+          </div>
+          <div class="modal-content">
+
+            <div class="how-buttons">
+              <div><a class="btn btn-2 withdraw-btn js-withdrawCommissions">Yes</a>
+              </div>
+              <div><a href="#" class="btn btn-cancel js-modal-close">Cancel</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="confirmDividends" class="modal modal-sm">
+    <div class="modal-body-wrap">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body-scroll">
+        <div class="modal-body">
+          <button type="button" class="modal-close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+              <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+            </svg>
+          </button>
+          <div class="modal-title">
+            Are you sure you would like to Withdraw all dividends+referral + seed?
+          </div>
+          <div class="modal-content">
+
+            <div class="how-buttons">
+              <div><a class="btn btn-2 withdraw-btn " onclick="harvest()">Yes</a>
+              </div>
+              <div><a href="#" class="btn btn-cancel js-modal-close">Cancel</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="offer" class="modal modal-lg">
+    <div class="modal-body-wrap">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body-scroll">
+        <div class="modal-body">
+          <button type="button" class="modal-close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+              <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+            </svg>
+          </button>
+          <div class="modal-title">
+            Fast Promotional Offer 16th January 2022 to 31st January 2022
+          </div>
+          <div class="modal-content">
+
+            <h5>
+			Fast Direct Bonanza!<br>
+			a.	Smart Laptop (Worth USD325):-  12BNB Farm <br>
+			b.	I-Tab(Apple)(Worth USD625):-  30BNB Farm <br>
+			c.	Royal Enfield Bike (Worth USD1950):- 100BNB Farm <br>
+
+			</h5>
+			<h5>
+			Fast Team Bonanza : (60% on Higher Level and 40% on Lower Level)!<br>
+			a.	MacBook Air (Worth USD1350):- 100BNB.<br>
+			b.	DatSun Go Car (Worth USD4375):- 300BNB.<br>
+			c.	Kia Sonet Car ( Worth USD15000):- 1000BNB.<br>
+			d.	Hyundai Creta Car(Worth USD22500):- 2500BNB.<br>
+			e.	BMW Car ( Worth USD44000):- 6000BNB
+
+			</h5>
+			<br>			
+			<p>
+			Terms & Conditions:<br>
+			1.	Anyone who is not interested to attend the promotion will be rewarded with BNB.<br>
+			2.	All Team Business Promotion are based on 60 to 40 ratio on level business in weaker leg in his team.<br>
+
+			<p>
+			
+			</h5>
+			
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #confirm -->
+  
+  
+  
+    <div id="contest" class="modal modal-double contest-popup">
+    <div class="modal-body-wrap">
+      <div class="modal-backdrop"></div>
+      <div class="modal-body-scroll">
+        <div class="modal-body">
+          <button type="button" class="modal-close" title="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24">
+              <path d="M13 12l5-5-1-1-5 5-5-5-1 1 5 5-5 5 1 1 5-5 5 5 1-1z"></path>
+            </svg>
+          </button>
+          <div class="modal-double-content">
+            <div class="modal-part">
+              <div class="block">
+                <div class="modal-title">
+                  Weekly Referral contest!
+                </div>
+                <div class="modal-content rules">
+
+                  <div class="subscribe-text">
+                    <div class="subscribe-icon">
+                      <img src="img/data/win.png" alt="">
+                    </div>
+                    <p>Starting From
+                      <div class="dates">From 7.12.2021 - 8:00 PM </div>
+                    </p>
+                    <p>GrowBNB the best Smart Contract platform, is happy to announce our first referral contest with a grand prize worth <strong>US$2500!</strong> paid in BNB.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="modal-content">
+                  <div class="rules">
+                    <h4 class="with-icon">
+
+<i class="svgicon svgicon-arrow">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#arrow"></use> 
+
+  </svg>
+
+</i>
+
+ Contest Rules</h4>
+                    <p>Our referral contest’s rules are simple. Refer users to our platform and ensure they become yield farmer. The GrowBNB users with the greatest number of active referrals will win the contest.</p>
+                    <h4 class="with-icon">
+
+<i class="svgicon svgicon-arrow">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#arrow"></use> 
+
+  </svg>
+
+</i>
+
+ Contest Description</h4>
+                    <p>According to the contest’s rules, you have to refer the GrowBNB platform to as many new users as possible, and encourage them to join Fastbnb. Towards the end of the contest, we will award 10 lucky participants in the Referral Rewards Program.
+We welcome participants from across the globe. There’s no need to apply for the contest — all you have to do is start referring. Everyone with active referrals will automatically be eligible for the grand prize.</p>
+                    <h4 class="with-icon">
+
+<i class="svgicon svgicon-arrow">
+
+  <svg>
+
+    <use xlink:href="img/icons/symbol/sprite.svg#arrow"></use> 
+
+  </svg>
+
+</i>
+
+ How to Enter?</h4>
+                    <p>Make sure that you have a minimum of 0.01 BNB stake in order to activate referral link. Post in on telegram groups, social media, send it to friends, make a Youtube video, make sure that you are getting active referrals.</p>
+                    <h4>Referrals Will be counted only from 1st level referral yeilds</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-part">
+              <div class="block">
+                <div class="modal-title">
+                  Winner Section
+                </div>
+                <div class="modal-content">
+                  <br/>
+                  <div class="rules">
+                    <p>In this section you can see top 10 addresses with the most referrals counted from the contest launch date - <strong class='c-date'>29.09.2021 - 11:00 AM - Till - 06.10.2021 - 15:00 PM EST</strong></span>
+                    </p>
+                  </div>
+                  <div class="table">
+                    <div class="table-row">
+                      <div class="label">You can use your referral link in the</div>
+                      <div class="val"><a data-fancybox="" data-src="#stat" href="#" class="btn btn-bordered">Wallet Section</a>
+                      </div>
+                    </div>
+                    <div class="table-row">
+                      <div class="label">We have also many banner sizes available here</div>
+                      <div class="val"><a data-fancybox="" data-src="#promo" href="#" class="btn btn-bordered">Promo</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="block">
+                <div class="modal-content">
+                  <h4>Top 10 Referral addresses</h4>
+                  <div class="witems">
+                    <div class="witem">
+                      <div class="witem-content">
+                        1St Place
+                        <div class="witem-title "><span>address…</span>
+                        </div>
+                      </div>
+                      <div class="witem-opts">New Active referrals <strong>24</strong>
+                      </div>
+                    </div>
+                    <div class="witem">
+                      <div class="witem-content">
+                        2nd Place
+                        <div class="witem-title "><span>address…</span>
+                        </div>
+                      </div>
+                      <div class="witem-opts">New Active referrals <strong>24</strong>
+                      </div>
+                    </div>
+                    <div class="witem">
+                      <div class="witem-content">
+                        3rd Place
+                        <div class="witem-title "><span>address…</span>
+                        </div>
+                      </div>
+                      <div class="witem-opts">New Active referrals <strong>24</strong>
+                      </div>
+                    </div>
+                    <div class="witem">
+                      <div class="witem-content">
+                        4th Place
+                        <div class="witem-title "><span>address…</span>
+                        </div>
+                      </div>
+                      <div class="witem-opts">New Active referrals <strong>24</strong>
+                      </div>
+                    </div>
+                    <div class="witem">
+                      <div class="witem-content">
+                        5th Place
+                        <div class="witem-title "><span>address…</span>
+                        </div>
+                      </div>
+                      <div class="witem-opts">New Active referrals <strong>24</strong>
+                      </div>
+                    </div>
+                    <div class="witem">
+                      <div class="witem-content">
+                        6th Place
+                        <div class="witem-title "><span>address…</span>
+                        </div>
+                      </div>
+                      <div class="witem-opts">New Active referrals <strong>24</strong>
+                      </div>
+                    </div>
+                    <div class="witem">
+                      <div class="witem-content">
+                        7th Place
+                        <div class="witem-title "><span>address…</span>
+                        </div>
+                      </div>
+                      <div class="witem-opts">New Active referrals <strong>24</strong>
+                      </div>
+                    </div>
+                    <div class="witem">
+                      <div class="witem-content">
+                        8th Place
+                        <div class="witem-title "><span>address…</span>
+                        </div>
+                      </div>
+                      <div class="witem-opts">New Active referrals <strong>24</strong>
+                      </div>
+                    </div>
+                    <div class="witem">
+                      <div class="witem-content">
+                        9th Place
+                        <div class="witem-title "><span>address…</span>
+                        </div>
+                      </div>
+                      <div class="witem-opts">New Active referrals <strong>24</strong>
+                      </div>
+                    </div>
+                    <div class="witem">
+                      <div class="witem-content">
+                        10th Place
+                        <div class="witem-title "><span>address…</span>
+                        </div>
+                      </div>
+                      <div class="witem-opts">New Active referrals <strong>24</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #contest -->
+
+
+  <!-- #contest -->
+  <!-- MODALS END -->
+  <div class="js-current-upline" data-account="0x0000000000000000000000000000000000000000"></div>
+  <script src="libs/svg4everybody/svg4everybody.min9e929e92.js?v=0.0.3"></script>
+  <script src="libs/simple-scroll/simplebar9e929e92.js?v=0.0.3"></script>
+  <script src="libs/prism/prism9e929e92.js?v=0.0.3"></script>
+  <script src="libs/Any-Content-Pagination-Plugin-For-jQuery-paginga/paginga.jquery.min9e929e92.js?v=0.0.3"></script>
+
+  <script src="js/common06460646.js?v=0.2.5"></script>
+ <!--  <script src="bundle790f.js?v=2.0.1"></script> -->
+  
+    <!--<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.2.6/dist/web3.min.js"></script>-->
+	<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script  src="fastbnb_newnode_v2.js"></script>
+  <!-- <script  src="userdetails.js"></script>
+ <script>
+  var account = document.getElementById('address').textContent;
+  getuser(account);
+  </script>
+  <script  src="referraldetails.js"></script> 
+  <script>
+  var account = document.getElementById('address').textContent;
+  getrefer(account);
+  </script>-->
+  <script>
+  let url = "https://api.1inch.exchange/v3.0/1/tokens";
+	$.get( url, function( data ) {
+	  console.log( data );
+	});
+  </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3ECZEJ3X7Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3ECZEJ3X7Y');
+</script>
+<script>
+        function calculateAmount(val) {
+			var amt = $("#amt").val();
+			if(val == "hen")
+			{
+				$("#daily").html("1.25%");
+				$("#dailybnb").html(amt*1.25/100);
+				$("#max").html("Infinity");
+				$("#maxbnb").html("Infinity");
+			}
+			else if(val == "cow")
+			{
+				$("#daily").html("2.5%");
+				$("#dailybnb").html(amt*2.5/100);
+				$("#max").html("375%");
+				$("#maxbnb").html(amt*375/100);
+			}
+			else 
+			{
+				$("#daily").html("3%");
+				$("#dailybnb").html(amt*3/100);
+				$("#max").html("270%");
+				$("#maxbnb").html(amt*270/100);
+			}
+			
+		}
+</script>
+<!-- Default Statcounter code for GrowBNB http://fastbnb.io
+-->
+<script type="text/javascript">
+var sc_project=12669159; 
+var sc_invisible=1; 
+var sc_security="d653def4"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="free hit
+counter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12669159/0/d653def4/1/"
+alt="free hit counter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+</body>
+
+
+<!-- Mirrored from fastbnb.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jan 2022 11:03:28 GMT -->
+</html>
